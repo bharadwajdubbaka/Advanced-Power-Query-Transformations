@@ -30,8 +30,6 @@ This project simulates a real-world business scenario in the hospitality sector.
 - Analytical Thinking
 
 ## 📂 Files
-
-- `Data/`: Contains the original or cleaned dataset.
 - `Insights/`: [file contains Insights](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/insights.xlsx)
 - `Presentation/`: [Slide deck used to present insights.](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/Excel_Project_3_Presentation_f.pdf)
 - `Video/`: [link to a video presentation.](https://youtu.be/bTCS9tXR11U)
