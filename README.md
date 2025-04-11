@@ -4,8 +4,8 @@
 This project simulates a real-world business scenario in the hospitality sector. It focuses on cleaning, transforming, and analyzing booking and room data using Excel’s Power Query editor.
 
 ## 🧩 Datasets Used
-- **bookings_data.csv** – Daily booking records, capacity, room IDs, and property information.
-- **rooms_data.csv** – Room classifications linked by room ID.
+- [**bookings_data.csv**](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/bookings_data1.csv) – Daily booking records, capacity, room IDs, and property information.
+- [**rooms_data.csv**](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/bookings_data1.csv)– Room classifications linked by room ID.
 
 ## 🔧 Tasks Performed
 1. **Data Cleaning**
