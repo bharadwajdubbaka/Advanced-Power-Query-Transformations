@@ -32,9 +32,13 @@ This project simulates a real-world business scenario in the hospitality sector.
 ## 📂 Files
 
 - `Data/`: Contains the original or cleaned dataset.
-- `Visuals/`: []()
+- `Insights/`: [file contains Insights](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/insights.xlsx)
 - `Presentation/`: [Slide deck used to present insights.](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/Excel_Project_3_Presentation_f.pdf)
 - `Video/`: [link to a video presentation.](https://youtu.be/bTCS9tXR11U)
 
 ## 💼 Outcome
 A structured dataset ready for business reporting and analysis, demonstrating essential skills in Excel-based data processing.
+
+**Author**: Bharadwaj Dubbaka 
+**LinkedIn**: [linkedlin profile](https://www.linkedin.com/in/bharadwaj-dubbaka-a6b974172/)  
+**Status**: Completed ✅
