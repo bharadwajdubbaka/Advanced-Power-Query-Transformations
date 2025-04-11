@@ -29,9 +29,12 @@ This project simulates a real-world business scenario in the hospitality sector.
 - Business Insight Extraction
 - Analytical Thinking
 
-## 📎 Files Included
-- `Excel_Project_3_Professional_Storytelling.pptx` – Presentation with speaker notes
-- Cleaned datasets and transformation steps (optional uploads)
+## 📂 Files
+
+- `Data/`: Contains the original or cleaned dataset.
+- `Visuals/`: []()
+- `Presentation/`: [Slide deck used to present insights.]()
+- `Video/`: [link to a video presentation.](https://youtu.be/bTCS9tXR11U)
 
 ## 💼 Outcome
 A structured dataset ready for business reporting and analysis, demonstrating essential skills in Excel-based data processing.
