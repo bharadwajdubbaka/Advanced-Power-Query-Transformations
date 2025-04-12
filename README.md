@@ -1,33 +1,106 @@
-# Excel Project : Advanced Power Query Transformations
 
-## 📊 Project Overview
-This project simulates a real-world business scenario in the hospitality sector. It focuses on cleaning, transforming, and analyzing booking and room data using Excel’s Power Query editor.
+# 📊 Excel Project : Advanced Power Query Transformations
 
-## 🧩 Datasets Used
-- [**bookings_data.csv**](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/bookings_data1.csv) – Daily booking records, capacity, room IDs, and property information.
-- [**rooms_data.csv**](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/bookings_data1.csv)– Room classifications linked by room ID.
+## 🚀 Overview
+This project simulates a real-world scenario in the hospitality industry. The objective was to transform messy booking and room data into clean, structured, and insightful datasets using **Excel Power Query**.
 
-## 🔧 Tasks Performed
-1. **Data Cleaning**
-   - Standardized inconsistent values (e.g., correcting property names)
-   - Removed unnecessary spaces
-   - Split combined columns (`city|city_code`) into separate fields
+---
 
-2. **Data Transformation**
-   - Created calculated columns for **Availability Status** and **Occupancy %**
-   - Merged room class data from a second dataset
-   - Reordered columns for improved readability
+## 📁 Datasets
 
-3. **Data Insights**
-   - Extracted month names for trend analysis
-   - Identified high-performing properties based on occupancy
-   - Grouped data by availability to support operational decisions
+### 1. `bookings_data.csv`
+- Includes property name, type, city + city code, room IDs, successful bookings, and capacity.
 
-## 📌 Skills Highlighted
-- Power Query (Excel)
-- Data Cleaning & Restructuring
-- Business Insight Extraction
-- Analytical Thinking
+### 2. `rooms_data.csv`
+- Contains `room_id` and `room_class` for classifying rooms (Standard, Premium, Deluxe).
+
+📸 **Add Screenshot Here**  
+*Screenshot showing a preview of both raw datasets.*
+
+```markdown
+![Raw Datasets](images/raw-datasets-preview.png)
+```
+
+---
+
+## 🧼 Step 1: Data Cleaning
+Tasks performed in Power Query:
+- Changed `property_id` to text
+- Fixed names like `"Atliq bay"` to `"Atliq Bay"`
+- Trimmed whitespace in `property_type`
+- Split `city|city_code` column
+
+📸 **Add Screenshot Here**  
+*Show before and after of cleaning, especially the split column and corrected name.*
+
+```markdown
+![Data Cleaning Example](images/data-cleaning-before-after.png)
+```
+
+---
+
+## 🔄 Step 2: Data Transformation
+Transformations included:
+- Created `Availability Status` column: Sold Out vs. Vacant
+- Added `occ%`: bookings ÷ capacity
+- Merged with `rooms_data` to add `room_class`
+- Reordered columns
+
+📸 **Add Screenshot Here**  
+*Image showing new columns and merged room_class.*
+
+```markdown
+![Data Transformation](images/availability-status-and-occ.png)
+```
+
+---
+
+## 📈 Step 3: Extracting Insights
+- Extracted `Month Name` from the date
+- Identified seasonal booking trends
+- Found high occupancy properties using `occ%`
+
+📸 **Add Screenshot Here**  
+*Chart or table showing booking trends by month or occupancy.*
+
+```markdown
+![Monthly Trends](images/monthly-booking-trends.png)
+```
+
+---
+
+## 💼 Outcome
+- Clean, structured dataset ready for business use
+- Practical Power Query skills demonstrated
+- Foundational project for analyst-level data transformation
+
+📸 **Add Screenshot Here**  
+*Final dataset preview showing cleaned + transformed results.*
+
+```markdown
+![Final Dataset](images/final-dataset-overview.png)
+```
+
+---
+
+## 🧠 Skills Applied
+- ✅ Data Cleaning
+- ✅ Data Transformation
+- ✅ Power Query (Excel)
+- ✅ Analytical Thinking
+- ✅ Real-world Dataset Simulation
+
+---
+
+## 📎 Project Files
+- `Excel_Project_3_Professional_Storytelling.pptx` — With speaker notes
+- `bookings_data.csv` and `rooms_data.csv`
+- Cleaned data exported (optional)
+
+## 📽 Presentation Preview
+
+[![Presentation Cover](images/ppt-cover-slide.png)](Excel_Project_3_Professional_Storytelling.pptx)
+
 
 ## 📂 Files
 - `Insights/`: [file contains Insights](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/insights.xlsx)
