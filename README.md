@@ -30,14 +30,10 @@ Tasks performed in Power Query:
 - Trimmed whitespace in `property_type`
 - Split `city|city_code` column
 
-📸 **Add Screenshot Here**  
-*Show before and after of cleaning, especially the split column and corrected name.*
 
-```markdown
-![Data Cleaning Example](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/data%20cleaning%20screenshot.png)
-```
+![](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/9d1bf876a88f6198e6328e0e66c41a8d7814be49/data%20cleaning%20screenshot.png)
 
----
+
 
 ## 🔄 Step 2: Data Transformation
 Transformations included:
@@ -46,28 +42,14 @@ Transformations included:
 - Merged with `rooms_data` to add `room_class`
 - Reordered columns
 
-📸 **Add Screenshot Here**  
-*Image showing new columns and merged room_class.*
-
-```markdown
-![Data Transformation](images/availability-status-and-occ.png)
-```
-
----
+![](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/9d1bf876a88f6198e6328e0e66c41a8d7814be49/data%20transformation%20screenshot.png)
 
 ## 📈 Step 3: Extracting Insights
 - Extracted `Month Name` from the date
 - Identified seasonal booking trends
 - Found high occupancy properties using `occ%`
 
-📸 **Add Screenshot Here**  
-*Chart or table showing booking trends by month or occupancy.*
-
-```markdown
-![Monthly Trends](images/monthly-booking-trends.png)
-```
-
----
+![](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/9d1bf876a88f6198e6328e0e66c41a8d7814be49/insights%20screenshot.png)
 
 ## 💼 Outcome
 - Clean, structured dataset ready for business use
