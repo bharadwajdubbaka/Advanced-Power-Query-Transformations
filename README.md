@@ -34,7 +34,7 @@ Tasks performed in Power Query:
 *Show before and after of cleaning, especially the split column and corrected name.*
 
 ```markdown
-![Data Cleaning Example](images/data-cleaning-before-after.png)
+![Data Cleaning Example](https://github.com/bharadwajdubbaka/Advanced-Power-Query-Transformations/blob/main/data%20cleaning%20screenshot.png)
 ```
 
 ---
